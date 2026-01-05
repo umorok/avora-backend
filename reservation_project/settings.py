@@ -133,7 +133,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "avora-backend.onrender.com"
+    "https://avora-project-ho8k.vercel.app/"
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
