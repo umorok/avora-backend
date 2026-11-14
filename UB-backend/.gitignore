@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+backendenv/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Environment secrets
+.env
+.env.*
+
+# Allow example configuration
+!.env.example
+
+# React
+node_modules/
+dist/
+build/
+
+# Editors and OS
+.vscode/
+.DS_Store
