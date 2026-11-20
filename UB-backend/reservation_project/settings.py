@@ -29,6 +29,15 @@ ALLOWED_HOSTS = [
     'avora-backend.onrender.com',
 ]
 
+# Vercel deployment domains
+ALLOWED_HOSTS += [
+    host for host in [
+        os.getenv('VERCEL_URL'),
+        os.getenv('VERCEL_PROJECT_PRODUCTION_URL'),
+    ]
+    if host
+]
+
 
 # =========================
 # APPLICATION DEFINITION
